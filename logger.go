@@ -15,7 +15,7 @@ import (
 
 type LogType string
 
-const (
+var (
 	ErrorLogType     LogType = "sql_error"
 	SlowQueryLogType LogType = "slow_query"
 	DefaultLogType   LogType = "default"
